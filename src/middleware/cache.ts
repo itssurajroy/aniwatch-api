@@ -1,4 +1,5 @@
 import { env } from "../config/env.js";
+import { MiddlewareHandler } from "hono";
 import { AniwatchAPICache, cache } from "../config/cache.js";
 import type { BlankInput } from "hono/types";
 import type { Context, MiddlewareHandler } from "hono";
